@@ -6,5 +6,5 @@ during a later lesson in order to edit with CSS.
 The goal is to have a basic homepage with links to additional pages containing 
 recipes.
 
-Will also be using this to get confortable with GIT and good practive commits.
+Will also be using this to get comfortable with GIT and good practice commits.
 
