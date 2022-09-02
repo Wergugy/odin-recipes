@@ -1,0 +1,17 @@
+.link {
+   font-size: 24px; 
+   margin-left: 20px;
+   padding: 20px 900px;
+   background-color: rgb(66, 204, 11);
+   color: hsl(327, 83%, 16%);
+   font-weight: 800;
+   transition-duration: 0.4s;
+   border-radius: 15px;
+   border: 3px solid #f50808;
+
+}
+.title {
+    font-size: 80px;
+    text-align: center;
+    background-color: rgb(207, 38, 38);
+}
