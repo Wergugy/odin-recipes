@@ -1,17 +1,30 @@
 .link {
-   font-size: 24px; 
-   margin-left: 20px;
-   padding: 20px 900px;
-   background-color: rgb(66, 204, 11);
-   color: hsl(327, 83%, 16%);
-   font-weight: 800;
-   transition-duration: 0.4s;
-   border-radius: 15px;
-   border: 3px solid #f50808;
-
+    font-size: 24px;
+    margin-left: 20px;
+    padding: 20px 900px;
+    background-color: rgb(66, 204, 11);
+    color: hsl(327, 83%, 16%);
+    font-weight: 800;
+    border-radius: 15px;
+    border: 3px solid #f50808;
 }
+
 .title {
     font-size: 80px;
     text-align: center;
     background-color: rgb(207, 38, 38);
+}
+
+.button:hover {
+    background-color: #f50808;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    transition-duration: 0.4s;
+}
+html {
+    background-color: black;
 }
