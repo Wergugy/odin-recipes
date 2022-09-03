@@ -2,7 +2,7 @@
     font-size: 24px;
     margin-left: 20px;
     padding: 20px 900px;
-    background-color: rgb(66, 204, 11);
+    background-color: rgba(206, 91, 235, 0.9);
     color: hsl(327, 83%, 16%);
     font-weight: 800;
     border-radius: 15px;
@@ -16,15 +16,43 @@
 }
 
 .button:hover {
-    background-color: #f50808;
+    background-color: #f7b1e8;
 }
 
 .button:active {
-    background-color: #3e8e41;
+    background-color: rgba(206, 91, 235, 0.4);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-    transition-duration: 0.4s;
+    transition-duration: 0.15s;
 }
+
 html {
     background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    height: auto;
+}
+
+.futt {
+    padding: 15px auto;
+    font-size: 20px;
+}
+
+header {
+    background-color: #f50808;
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(224, 235, 245);
+    border: 5px solid hsl(120, 100%, 0%);
+    border-radius: 15px;
+    padding: 0px 0px 0px 0px;
+}
+
+body {
+    padding: 30px 20px 30px 30px;
+    background-color: rgb(192, 246, 250);
 }
